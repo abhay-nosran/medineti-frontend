@@ -90,7 +90,7 @@ export const FAQSection: React.FC = () => {
                         initial={{ height: 0, opacity: 0 }}
                         animate={{ height: 'auto', opacity: 1 }}
                         exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.25, ease: 'easeInOut' }}
+                        transition={{ duration: 0.25, ease: 'easeInOut' as const }}
                         className="overflow-hidden"
                       >
                         <p className="px-6 py-5 text-secondary-600 border-t border-secondary-200">

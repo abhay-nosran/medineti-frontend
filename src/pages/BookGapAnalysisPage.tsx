@@ -26,16 +26,11 @@ export const BookGapAnalysisPage: React.FC = () => {
   const { ref, controls, variants } = useScrollAnimation(0.2);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
-    const { name, value, type } = e.target;
-    let parsedValue = value;
-
-    if (type === 'number') {
-      parsedValue = value === '' ? '' : Number(value);
-    }
+    const { name, value } = e.target;
 
     setFormData((prev) => ({
       ...prev,
-      [name]: parsedValue,
+      [name]: value,
     }));
 
     // Clear error when user starts typing
@@ -62,7 +57,7 @@ export const BookGapAnalysisPage: React.FC = () => {
       errors.hospitalType = 'Hospital type is required';
     }
 
-    if (!formData.numberOfBeds || formData.numberOfBeds <= 0) {
+    if (!formData.numberOfBeds || Number(formData.numberOfBeds) <= 0) {
       errors.numberOfBeds = 'Please enter a valid number of beds';
     }
 

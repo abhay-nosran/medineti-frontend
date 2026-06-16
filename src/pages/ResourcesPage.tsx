@@ -11,12 +11,6 @@ export const ResourcesPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const { ref, controls, variants } = useScrollAnimation(0.2);
 
-  const filteredResources = companyConfig.resourceCategories.filter(
-    (category) =>
-      selectedCategory === 'All' ||
-      category.toLowerCase().includes(selectedCategory.toLowerCase())
-  );
-
   return (
     <PageWrapper title="Resources & Blog">
       <motion.div

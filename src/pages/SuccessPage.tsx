@@ -2,7 +2,7 @@ import React from 'react';
 import { PageWrapper } from '../components/PageWrapper';
 import { motion } from 'framer-motion';
 import { companyConfig } from '../config/companyConfig';
-import { fadeInUp, staggerContainer } from '../constants/animationVariants';
+import { fadeInUp } from '../constants/animationVariants';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { Link } from 'react-router-dom';
 

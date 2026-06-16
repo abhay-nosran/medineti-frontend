@@ -19,7 +19,6 @@ export default defineConfig({
           'react-vendor': ['react', 'react-dom', 'react-router-dom'],
           'animation-vendor': ['framer-motion'],
           'form-vendor': ['react-hook-form'],
-          'ui-vendor': ['@heroicons/react'],
         },
       },
     },

@@ -99,7 +99,7 @@ export const ServicesPage: React.FC = () => {
                       initial={{ height: 0, opacity: 0 }}
                       animate={{ height: 'auto', opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.25, ease: 'easeInOut' }}
+                      transition={{ duration: 0.25, ease: 'easeInOut' as const }}
                       className="overflow-hidden"
                     >
                       <div className="px-6 py-4 space-y-4 border-t border-secondary-200">

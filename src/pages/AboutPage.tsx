@@ -1,9 +1,8 @@
 import React from 'react';
 import { PageWrapper } from '../components/PageWrapper';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { companyConfig } from '../config/companyConfig';
-import { fadeInUp, staggerContainer } from '../constants/animationVariants';
-import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import { fadeInUp } from '../constants/animationVariants';
 
 export const AboutPage: React.FC = () => {
   return (
