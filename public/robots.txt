@@ -1,0 +1,28 @@
+# Healthcare Consulting Site Robots File
+# Specifies how search engines should crawl and index the site
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.well-known/
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://mediniti.example.com/sitemap.xml
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /

@@ -1,4 +1,5 @@
 import { companyConfig } from '../config/companyConfig';
+import { logger } from '../utils/logger';
 
 // ─── Base URL ─────────────────────────────────────────────────────────────────
 
@@ -64,7 +65,10 @@ class ApiService {
     try {
       return await postJSON<ApiResult>('/api/contact', data);
     } catch (error) {
-      console.error('Contact form submission error:', error);
+      logger.error('Contact form submission failed', error, {
+        endpoint: '/api/contact',
+        timestamp: new Date().toISOString(),
+      });
       return {
         success: false,
         message: 'Failed to send message. Please check your connection and try again.',
@@ -83,7 +87,10 @@ class ApiService {
     try {
       return await postJSON<ApiResult>('/api/gap-analysis', data);
     } catch (error) {
-      console.error('Gap analysis form submission error:', error);
+      logger.error('Gap analysis form submission failed', error, {
+        endpoint: '/api/gap-analysis',
+        timestamp: new Date().toISOString(),
+      });
       return {
         success: false,
         message: 'Failed to submit booking. Please check your connection and try again.',

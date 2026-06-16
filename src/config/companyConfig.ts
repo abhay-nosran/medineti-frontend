@@ -631,8 +631,8 @@ export const companyConfig = {
   // Testimonials
   testimonials: [
     {
-      name: "Dr. Priya Sharma",
-      designation: "Medical Director, City Hospital",
+      name: "Dr. Shivendra singh Kasana",
+      designation: "Medical Director, SPES Super Speciality  Hospital,Graeter Noida",
       content: "MediNiti's guidance was instrumental in achieving our NABH accreditation. Their systematic approach and expert knowledge made the process seamless.",
       rating: 5,
     },
@@ -643,9 +643,21 @@ export const companyConfig = {
       rating: 5,
     },
     {
-      name: "Dr. Anita Desai",
-      designation: "Director, HealthFirst Hospital",
+      name: "Dr. Sandeep Dhiaya",
+      designation: "Director, Satish Hospital,Neemrana",
       content: "Professional, knowledgeable, and results-oriented. MediNiti helped us achieve accreditation ahead of schedule and under budget.",
+      rating: 5,
+    },
+    {
+      name: "Dr. Khusboo  ",
+      designation: "Director, Sheela Neuro Multi super speciality  Hospital,Rewari",
+      content: "Working with MediNiti was a valuable investment. Their practical recommendations, responsive support, and focus on outcomes helped us meet accreditation standards efficiently, saving both time and resources throughout the process.",
+      rating: 5,
+    },
+    {
+      name: "Dr. Sunder Singh  ",
+      designation: "Director, RCC Hospital,ROHTAK",
+      content: "The professionalism and deep industry knowledge of MediNiti were instrumental to our success. They identified critical gaps early, streamlined our preparation, and enabled us to secure accreditation on time and within budget.",
       rating: 5,
     },
   ],

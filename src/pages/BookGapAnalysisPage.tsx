@@ -5,6 +5,7 @@ import { companyConfig } from '../config/companyConfig';
 import { fadeInUp, staggerContainer } from '../constants/animationVariants';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { apiService } from '../services/api';
+import { logger } from '../utils/logger';
 
 export const BookGapAnalysisPage: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -144,7 +145,7 @@ export const BookGapAnalysisPage: React.FC = () => {
           }
         }
       } catch (error) {
-        console.error('Form submission error:', error);
+        logger.error('Gap analysis form submission error', error);
         setFormStatus('error');
       }
     }
