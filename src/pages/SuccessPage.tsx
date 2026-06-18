@@ -10,7 +10,7 @@ export const SuccessPage: React.FC = () => {
   const { ref, controls, variants } = useScrollAnimation(0.2);
 
   return (
-    <PageWrapper title="Success - MediNiti Healthcare Consulting">
+    <PageWrapper title={`Success - ${companyConfig.shortName} Healthcare Consulting`}>
       <motion.div
         ref={ref}
         initial="hidden"

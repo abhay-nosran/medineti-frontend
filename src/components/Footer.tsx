@@ -69,7 +69,7 @@ export const Footer: React.FC = () => {
             <div className="flex space-x-4">
               <a
                   key={"LinkedIn"}
-                  href={"https://linkedin.com/company/mediniti"}
+                  href={"https://linkedin.com/company/medineti"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-secondary-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors"
@@ -83,7 +83,7 @@ export const Footer: React.FC = () => {
             
               <a
                   key={"Facebook"}
-                  href={"https://facebook.com/mediniti.healthcare"}
+                  href={"https://facebook.com/medineti.healthcare"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-secondary-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors"
@@ -97,7 +97,7 @@ export const Footer: React.FC = () => {
 
               <a
                   key={"Twitter"}
-                  href={"https://twitter.com/mediniti_health"}
+                  href={"https://twitter.com/medineti_health"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-secondary-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors"

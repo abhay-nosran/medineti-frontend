@@ -192,7 +192,7 @@ export const ContactPage: React.FC = () => {
                 <h3 className="text-lg font-bold text-secondary-900">Social Media</h3>
                 <div className="flex space-x-3">
                    <a
-                    href="https://linkedin.com/company/mediniti"
+                    href="https://linkedin.com/company/medineti"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-8 h-8 bg-secondary-200 rounded-full flex items-center justify-center hover:bg-primary-200 transition-colors text-secondary-700 hover:text-primary-700"
@@ -205,7 +205,7 @@ export const ContactPage: React.FC = () => {
                   </a>
             
                   <a
-                    href="https://facebook.com/mediniti.healthcare"
+                    href="https://facebook.com/medineti.healthcare"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-8 h-8 bg-secondary-200 rounded-full flex items-center justify-center hover:bg-primary-200 transition-colors text-secondary-700 hover:text-primary-700"
@@ -218,7 +218,7 @@ export const ContactPage: React.FC = () => {
                   </a>
 
                   <a
-                    href="https://twitter.com/mediniti_health"
+                    href="https://twitter.com/medineti_health"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-8 h-8 bg-secondary-200 rounded-full flex items-center justify-center hover:bg-primary-200 transition-colors text-secondary-700 hover:text-primary-700"

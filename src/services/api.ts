@@ -46,8 +46,22 @@ async function postJSON<T>(path: string, body: unknown): Promise<T> {
     credentials: 'include',
   });
 
-  // Always parse as JSON — the backend always returns a JSON body
-  const data = (await res.json()) as T;
+  // Guard against empty or non-JSON responses (e.g. 404 HTML from a proxy)
+  const text = await res.text();
+  if (!text) {
+    throw new Error(`Server returned ${res.status} with an empty body. Is the backend running?`);
+  }
+
+  let data: T;
+  try {
+    data = JSON.parse(text) as T;
+  } catch {
+    throw new Error(
+      `Server returned ${res.status} but the response was not JSON. ` +
+      `Check that the backend is running on ${API_BASE_URL}. Body: ${text.slice(0, 200)}`
+    );
+  }
+
   return data;
 }
 

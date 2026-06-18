@@ -26,7 +26,7 @@ export const WhyChooseUsSection: React.FC = () => {
               variants={fadeInUp}
               className="text-3xl md:text-4xl font-bold text-secondary-900 mb-4"
             >
-              Why Choose MediNiti Healthcare Consulting?
+              Why Choose {companyConfig.shortName} Healthcare Consulting?
             </motion.h2>
             <motion.p
               variants={fadeInUp}

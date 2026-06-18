@@ -3,8 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "MediNiti Healthcare Consulting - NABH Accreditation & Compliance",
-  "author": "MediNiti Solution",
+  "description": "MediNeti Healthcare Consulting - NABH Accreditation & Compliance",
+  "author": "MediNeti Solution",
   "license": "MIT",
   "scripts": {
     "dev": "vite",

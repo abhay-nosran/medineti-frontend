@@ -46,14 +46,14 @@ export interface Team {
 
 export const companyConfig = {
   // Core Company Information
-  companyName: "MediNiti Solution",
-  shortName: "MediNiti",
+  companyName: "MediNeti Solution",
+  shortName: "MediNeti",
   tagline: "Your Vision our Strategy",
   description: "Premier healthcare consulting firm specializing in NABH accreditation, compliance management, and quality improvement programs for healthcare organizations across India.",
 
   // Contact Information
   contact: {
-    email: "contact@medineti.com",
+    email: "info@medineti.com",
     phone: "+91 9667224884",
     address: "Today's King Park",
     city: "Greater Noida",
@@ -65,24 +65,24 @@ export const companyConfig = {
   socialLinks: [
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/company/mediniti",
+      url: "https://linkedin.com/company/medineti",
       icon: "linkedin",
     },
     {
       platform: "Twitter",
-      url: "https://twitter.com/mediniti_health",
+      url: "https://twitter.com/medineti_health",
       icon: "twitter",
     },
     {
       platform: "Facebook",
-      url: "https://facebook.com/mediniti.healthcare",
+      url: "https://facebook.com/medineti.healthcare",
       icon: "facebook",
     },
   ] as SocialLink[],
 
   // SEO Configuration
   seo: {
-    title: "MediNiti Healthcare Consulting | NABH Accreditation & Compliance Experts",
+    title: "MediNeti Healthcare Consulting | NABH Accreditation & Compliance Experts",
     description: "Leading healthcare quality and compliance consulting firm. Specializing in NABH accreditation, hospital compliance, quality improvement programs, and staff training.",
     keywords: "NABH accreditation, healthcare compliance, hospital quality, medical consulting, accreditation consulting, healthcare training",
   },
@@ -633,7 +633,7 @@ export const companyConfig = {
     {
       name: "Dr. Shivendra singh Kasana",
       designation: "Medical Director, SPES Super Speciality  Hospital,Graeter Noida",
-      content: "MediNiti's guidance was instrumental in achieving our NABH accreditation. Their systematic approach and expert knowledge made the process seamless.",
+      content: "MediNeti's guidance was instrumental in achieving our NABH accreditation. Their systematic approach and expert knowledge made the process seamless.",
       rating: 5,
     },
     {
@@ -645,19 +645,19 @@ export const companyConfig = {
     {
       name: "Dr. Sandeep Dhiaya",
       designation: "Director, Satish Hospital,Neemrana",
-      content: "Professional, knowledgeable, and results-oriented. MediNiti helped us achieve accreditation ahead of schedule and under budget.",
+      content: "Professional, knowledgeable, and results-oriented. MediNeti helped us achieve accreditation ahead of schedule and under budget.",
       rating: 5,
     },
     {
       name: "Dr. Khusboo  ",
       designation: "Director, Sheela Neuro Multi super speciality  Hospital,Rewari",
-      content: "Working with MediNiti was a valuable investment. Their practical recommendations, responsive support, and focus on outcomes helped us meet accreditation standards efficiently, saving both time and resources throughout the process.",
+      content: "Working with MediNeti was a valuable investment. Their practical recommendations, responsive support, and focus on outcomes helped us meet accreditation standards efficiently, saving both time and resources throughout the process.",
       rating: 5,
     },
     {
       name: "Dr. Sunder Singh  ",
       designation: "Director, RCC Hospital,ROHTAK",
-      content: "The professionalism and deep industry knowledge of MediNiti were instrumental to our success. They identified critical gaps early, streamlined our preparation, and enabled us to secure accreditation on time and within budget.",
+      content: "The professionalism and deep industry knowledge of MediNeti were instrumental to our success. They identified critical gaps early, streamlined our preparation, and enabled us to secure accreditation on time and within budget.",
       rating: 5,
     },
   ],

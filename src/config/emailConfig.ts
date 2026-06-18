@@ -12,7 +12,7 @@ export const emailConfig = {
   publicKey:    import.meta.env.VITE_EMAILJS_PUBLIC_KEY    as string,
   serviceId:    import.meta.env.VITE_EMAILJS_SERVICE_ID    as string,
 
-  // Template sent TO MediNiti — receives all form data
+  // Template sent TO MediNeti — receives all form data
   adminTemplateId: import.meta.env.VITE_EMAILJS_ADMIN_TEMPLATE_ID as string,
 
   // Template sent TO the user — confirmation / thank-you email
